@@ -6,20 +6,34 @@
     text-decoration: none;
 }
 
-.header{
+nav {
+    background-color: rgb(34, 159, 241);
+    height: 4rem;
+    width: 100%;
+}
+
+label.logo a{
     padding-top: 1rem;
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     position: absolute;
+    color: white;
+    padding: 0 6rem;
+    padding-top: 0.6rem; 
+}
+nav ul {
+    float: right;
+    margin-right: 1rem;
+}
+ nav ul li {
+    display: inline-block;
+    line-height: 4rem;
+    margin: 0 1rem; 
 }
 
-ul {
-    position: relative;
-    display: flex;
-    justify-content: flex-end; 
+nav ul li a {
+    color: white;
 }
 
 
-body {
-    background-color: aqua;
-}
+
